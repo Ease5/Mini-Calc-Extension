@@ -1,0 +1,47 @@
+:root {
+  --md-sys-color-primary: #1a73e8; /* Google Blue */
+  --md-sys-color-secondary: #5f6368;
+  --md-elevated-button-container-shape: 12px;
+  --md-filled-button-container-shape: 12px;
+}
+
+body {
+  width: 300px;
+  margin: 0px;
+  background-color: hsla(204, 100%, 98%, 0);
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}
+
+.header {
+  padding: 12px 16px;
+  color: #5f6368;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.display-area {
+  padding: 24px 16px;
+  text-align: right;
+  font-size: 40px;
+  color: #1d1d22;
+  min-height: 60px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  padding: 0 12px 16px 12px;
+}
+
+/* Make Material components fill the grid cells */
+md-elevated-button, md-filled-button, md-filled-tonal-button {
+  width: 100%;
+  height: 48px;
+}
+
+.double {
+  grid-column: span 2;
+}

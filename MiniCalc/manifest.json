@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "MiniCalc",
+  "version": "3.0.0",
+  "description": "A lightweight, popup calculator for quick calculations.",
+  
+  "icons": {
+    "32": "icon_light.png",
+    "128": "icon_light128.png"
+  },
+
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}

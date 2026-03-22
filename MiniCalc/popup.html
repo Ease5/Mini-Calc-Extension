@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MiniCalc</title>
+  <script type="module" src="lib/material-all.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator-card">
+    <div class="header">
+      <span class="brand">MiniCalc</span>
+    </div>
+    
+    <div class="display-area">
+      <div id="screen">0</div>
+    </div>
+    
+    <div class="grid">
+      <md-elevated-button class="btn">AC</md-elevated-button>
+      <md-elevated-button class="btn">+/-</md-elevated-button>
+      <md-elevated-button class="btn">%</md-elevated-button>
+      <md-filled-button class="btn operator">÷</md-filled-button>
+      
+      <md-elevated-button class="btn">7</md-elevated-button>
+      <md-elevated-button class="btn">8</md-elevated-button>
+      <md-elevated-button class="btn">9</md-elevated-button>
+      <md-filled-button class="btn operator">×</md-filled-button>
+      
+      <md-elevated-button class="btn">4</md-elevated-button>
+      <md-elevated-button class="btn">5</md-elevated-button>
+      <md-elevated-button class="btn">6</md-elevated-button>
+      <md-filled-button class="btn operator">−</md-filled-button>
+      
+      <md-elevated-button class="btn">1</md-elevated-button>
+      <md-elevated-button class="btn">2</md-elevated-button>
+      <md-elevated-button class="btn">3</md-elevated-button>
+      <md-filled-button class="btn operator">+</md-filled-button>
+      
+      <md-elevated-button class="btn double">0</md-elevated-button>
+      <md-elevated-button class="btn">.</md-elevated-button>
+      <md-filled-tonal-button class="btn" id="equals">=</md-filled-tonal-button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
